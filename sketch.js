@@ -21,8 +21,8 @@ var clickables;                    // an array of clickable objects
 var currentStateName = "";
 var backgroundImage;
 
-var bkColor = '#031927';
-var textColor = '#E9D6EC';
+var bkColor = '#F1AB86';
+var textColor = '#1E2D2F';
 
 var buttonFont;
 
@@ -71,7 +71,7 @@ function setupClickables() {
 
 // tint when mouse is over
 clickableButtonHover = function () {
-  this.color = "#F2545B";
+  this.color = "#C57B57";
   this.noTint = false;
   this.tint = "#FF0000";
 }
@@ -79,7 +79,7 @@ clickableButtonHover = function () {
 // color a light gray if off
 clickableButtonOnOutside = function () {
   // backto our gray color
-  this.color = "#E9D6EC";
+  this.color = "#F7DBA7";
 }
 
 clickableButtonPressed = function() {
