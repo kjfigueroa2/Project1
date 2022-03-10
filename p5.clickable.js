@@ -61,7 +61,7 @@ function Clickable() {
 	this.resizeImageFlag = false;	// flag for setting width and height to image after setImage since it is asynchronous
 	this.x = 0;			//X position of the clickable
 	this.y = 0;			//Y position of the clickable
-	this.width = 100;		//Width of the clickable
+	this.width = 80;		//Width of the clickable
 	this.height = 50;		//Height of the clickable
 	this.color = "#FFFFFF";		//Background color of the clickable
 	this.cornerRadius = 10;		//Corner radius of the clickable
@@ -69,7 +69,7 @@ function Clickable() {
 	this.stroke = "#000000";	//Border color of the clickable
 	this.text = "Press Me";		//Text of the clickable
 	this.textColor = "#000000";	//Color for the text shown
-	this.textSize = 12;		//Size for the text shown
+	this.textSize = 22;		//Size for the text shown
 	this.textFont = "sans-serif";	//Font for the text shown
 	this.textScaled = false;     //Scale the text with the size of the clickable
 	this.drawImageOnly = false;		// set to true if we want just the PNG
