@@ -1,17 +1,6 @@
 /*******************************************************************************************************************
-      Moody
-    by Scott Kildall
- 
-  Color Palette Values:
-
-  Black: #031927
-  Turquoise: #3ED8D2
-  Canary: #FFF689
-  Sizzling Red: #F2545B
-  Pale Purple: #E9D6EC
-
-    Uses the p5.ComplexStateMachine library. Check the README.md + source code documentation
-    The index.html needs to include the line:  <script src="p5.complexStateManager.js"></script>
+Project 1
+by Kaila Figueroa
 *********************************************************************************************************************/
 
 var complexStateMachine;           // the ComplexStateMachine class
@@ -26,7 +15,7 @@ var textColor = '#1E2D2F';
 
 var buttonFont;
 
-//mood images
+//variables for mood images
 var satisfied;
 var uncertain;
 var worried;
@@ -91,9 +80,8 @@ clickableButtonHover = function () {
   this.tint = "#FF0000";
 }
 
-// color a light gray if off
+// color a dark orange  if off
 clickableButtonOnOutside = function () {
-  // backto our gray color
   this.color = "#C57B57";
 }
 
@@ -133,7 +121,7 @@ function drawImage() {
   }  
 }
 
-//draw moods
+//draw mood scores for each scenario
 function drawMoods(){
   if(currentStateName === "Scenario1"){
     image(satisfied,160,200,130,130);
